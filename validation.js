@@ -18,4 +18,10 @@ $(document).ready(function(){
 
         if(hasError == true) { return false; }
     });
+    $('.dropclick').click(function(){
+        $(".navbar-collapse").collapse('hide');
+    });
+    $(document).ready(function(){
+        $(this).scrollTop(0);
+    });
 });
