@@ -1,8 +1,14 @@
 body{
-    background-color: rgb(166, 185, 185)
-    
+   background-color: rgb(13, 54, 65)    
 }
 .error
 {
     color: red;
+}
+.card1-body{
+    height: 80px;
+    overflow: hidden;
+    overflow-y: scroll;
+    
+    
 }
